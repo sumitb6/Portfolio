@@ -62,7 +62,7 @@ body {
 .man-img::before{
 content: "";
   left: 50%;
-  width: 0px;
+  width: 0px!important;
   position: absolute;
   height: calc(100% + 140px);
   background: var(--gray-color);
