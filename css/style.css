@@ -59,7 +59,14 @@ body {
   height: calc(100% + 140px);
   background: var(--gray-color);
 }
-
+.man-img::before{
+content: "";
+  left: 50%;
+  width: 0px;
+  position: absolute;
+  height: calc(100% + 140px);
+  background: var(--gray-color);
+}
 #about img,
 #about .hire-text h2 {
   width: 140px;
